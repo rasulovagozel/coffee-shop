@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+nav .logo img {
+  margin-top: 30px;
+  margin-left: 40px;
+}
+nav ul {
+  margin-top: 30px;
+  margin-right: 30px;
+}
+nav .logo img {
+  width: 125px;
+  height: 40px;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+  padding: 20px;
+  font-size: 18px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 600;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #2b231d;
+}
+nav ul .actived {
+  border: 1px solid black;
+  cursor: pointer;
+  height: 8px;
+  line-height: 8px;
+}
+nav ul .actived:hover {
+  background-color: black;
+  color: white;
+}
+.explore-coffee hr,
+.clients-comments hr {
+  margin-top: 80px;
+  margin-bottom: 40px;
+  width: 10%;
+}
+.explore-coffee hr {
+  margin-left: 575px;
+}
+.clients-comments hr {
+  margin-left: 595px;
+}
+.explore-coffee .header h2,
+.clients-comments .header h2 {
+  font-size: 46px;
+  font-weight: 600;
+  color: #2b231d;
+  line-height: 60px;
+  margin: 20px auto 15px auto;
+  font-family: "Playfair Display", serif;
+}
+.explore-coffee .header h2 {
+  width: 300px;
+
+}
+.clients-comments .header h2 {
+  width: 400px;
+  text-align: center;
+}
+.explore-coffee .header p,
+.clients-comments .header p {
+  text-align: center;
+  color: #312e29;
+  font-size: 18px;
+  width: 500px;
+  line-height: 33px;
+  margin: 0 auto;
+  font-family: "DM Sans", sans-serif;
+}
+.explore-coffee .variaties-of-coffees {
+  display: flex;
+  width: 70%;
+}
+.explore-coffee .variaties-of-coffees .first-coffee,
+.explore-coffee .variaties-of-coffees .second-coffee,
+.explore-coffee .variaties-of-coffees .third-coffee,
+.explore-coffee .variaties-of-coffees .deserts {
+  width: 40%;
+  height: 390px;
+  background-color: white;
+  margin-top: 40px;
+  margin-left: 70px;
+  padding-right: 10px;
+  border: 1px solid rgb(235, 229, 229);
+  transition:  0.4s ease-in-out;
+}
+.explore-coffee .variaties-of-coffees .first-coffee img,
+.explore-coffee .variaties-of-coffees .second-coffee img,
+.explore-coffee .variaties-of-coffees .third-coffee img,
+.explore-coffee .variaties-of-coffees .deserts img {
+  display: block;
+  margin: 10px auto;
+  width: 120px;
+  height: 150px;
+  object-fit: contain;
+}
+.explore-coffee .variaties-of-coffees .first-coffee h3,
+.explore-coffee .variaties-of-coffees .third-coffee h3 {
+  margin-left: 40px;
+}
+.explore-coffee .variaties-of-coffees .second-coffee h3 {
+  margin-left: 55px;
+}
+.explore-coffee .variaties-of-coffees .deserts h3 {
+  margin-left: 80px;
+}
+.explore-coffee .variaties-of-coffees .first-coffee h3,
+.explore-coffee .variaties-of-coffees .third-coffee h3,
+.explore-coffee .variaties-of-coffees .second-coffee h3,
+.explore-coffee .variaties-of-coffees .deserts h3 {
+  display: block;
+  margin-top: 25px;
+  font-size: 25px;
+  font-weight: 600;
+  color: #2b231d;
+  font-family: "Playfair Display", serif;
+}
+
+.explore-coffee .variaties-of-coffees .first-coffee p,
+.explore-coffee .variaties-of-coffees .second-coffee p,
+.explore-coffee .variaties-of-coffees .third-coffee p,
+.explore-coffee .variaties-of-coffees .deserts p {
+  text-align: center;
+  line-height: 25px;
+  width: 200px;
+  padding: 0 15px;
+  margin-left: 10px;
+  font-family: "DM Sans", sans-serif;
+}
+.explore-coffee .variaties-of-coffees .first-coffee a,
+.explore-coffee .variaties-of-coffees .second-coffee a,
+.explore-coffee .variaties-of-coffees .third-coffee a,
+.explore-coffee .variaties-of-coffees .deserts a {
+  display: block;
+  text-decoration: none;
+  color: #d74544;
+  text-align: center;
+  font-weight: 500;
+  margin-top: 30px;
+  font-family: "DM Sans", sans-serif;
+  letter-spacing: 5px;
+  font-size: 13px;
+}
+.explore-coffee .variaties-of-coffees .first-coffee:hover.first-coffee,
+.explore-coffee .variaties-of-coffees .second-coffee:hover.second-coffee,
+.explore-coffee .variaties-of-coffees .third-coffee:hover.third-coffee,
+.explore-coffee .variaties-of-coffees .deserts:hover.deserts{
+  width: 40%;
+  height: 390px;
+  background-color: white;
+  margin-top: 40px;
+  margin-left: 70px;
+  padding-right: 10px;
+  box-shadow: 7px 7px 20px 2px rgb(219, 219, 219);
+}
+.coffee-pictures {
+  margin-left: 30px;
+}
+.coffee-pictures .cards {
+  width: 95%;
+  margin: 40px auto;
+  overflow: hidden;
+}
+.coffee-pictures .cards div {
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+}
+.coffee-pictures .cards div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.4s ease-in-out;
+}
+.coffee-pictures .cards .image1:hover.image1 img,
+.coffee-pictures .cards .image2:hover.image2 img,
+.coffee-pictures .cards .image3:hover.image3 img,
+.coffee-pictures .cards .image4:hover.image4 img,
+.coffee-pictures .cards .image5:hover.image5 img,
+.coffee-pictures .cards .image6:hover.image6 img {
+  transform: scale(1.2);
+  width: 100%;
+  height: 100%;
+}
+.clients-comments .comments {
+  display: flex;
+  width: 90%;
+  margin-top: 40px;
+}
+.clients-comments .comments .comment-1,
+.clients-comments .comments .comment-2,
+.clients-comments .comments .comment-3 {
+  width: 48%;
+  box-shadow: 7px 7px 20px 2px rgb(219, 219, 219);
+  height: 390px;
+}
+.clients-comments .comments .comment-1 {
+  margin-left: 130px;
+}
+.clients-comments .comments .comment-2 {
+  margin-left: 30px;
+}
+.clients-comments .comments .comment-3 {
+  margin-left: 30px;
+}
+.clients-comments .comments .comment-1 img,
+.clients-comments .comments .comment-2 img,
+.clients-comments .comments .comment-3 img {
+  display: block;
+  border-radius: 50%;
+  width: 72px;
+  height: 72px;
+  margin: 40px auto 0 auto;
+  transition:1s ease-in-out;
+}
+.clients-comments .comments .comment-1 .client-1,
+.clients-comments .comments .comment-2 .client-2,
+.clients-comments .comments .comment-3 .client-3 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  width: 280px;
+  text-align: center;
+  line-height: 30px;
+  margin: 15px auto;
+  transition:0.8s ease-in-out;
+}
+.clients-comments .comments .comment-1 h3,
+.clients-comments .comments .comment-3 h3 {
+  font-size: 18px;
+  color: #2b231d;
+  font-family: "Playfair Display", Sans-serif;
+  margin-left: 120px;
+  margin-top: 30px;
+  transition:0.8s ease-in-out;
+}
+.clients-comments .comments .comment-2 h3 {
+  font-size: 18px;
+  color: #2b231d;
+  font-family: "Playfair Display", Sans-serif;
+  margin-left: 100px;
+  margin-top: 30px;
+  transition:0.8s ease-in-out;
+}
+.clients-comments .comments .comment-1 .majority,
+.clients-comments .comments .comment-2 .majority,
+.clients-comments .comments .comment-3 .majority {
+  color: #706357c2;
+  font-family: "DM Sans", Sans-serif;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin-top: 35px;
+  transition:0.8s ease-in-out;
+}
+.clients-comments .comments .comment-1 .majority {
+  margin-left: 100px;
+}
+.clients-comments .comments .comment-2 .majority,
+.clients-comments .comments .comment-3 .majority {
+  margin-left: 130px;
+}
+.clients-comments .comments .comment-1:hover.comment-1{
+  background-color: black;
+  color: white;
+}
+.clients-comments .comments .comment-1:hover.comment-1 h3,
+.clients-comments .comments .comment-1:hover.comment-1 .majority
+{
+  color: white;
+}
+.clients-comments .comments .comment-2:hover.comment-2 img,
+.clients-comments .comments .comment-3:hover.comment-3 img
+{
+  transform: scale(1.6);
+}
